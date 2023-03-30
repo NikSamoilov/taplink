@@ -20,14 +20,16 @@ body {
 }
 .header {
   color: #fff;
-  padding: 15px 32px 115px;
+  height: 219px;
   background: url('../img/header-bg.png') no-repeat center / cover;
   border-radius: 0px 0px 70px 70px;
+  padding: 15px 176px 115px 32px;
 }
 .hello {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  
 }
 .hello-text {
   font-weight: 400;
@@ -36,6 +38,7 @@ body {
 }
 .user {
   margin-top: -13px;
+  margin-bottom: 22px;
   text-align: center;
   background: #F0F0F0;
   box-shadow: 0px 0px 30px rgba(155, 155, 155, 0.25);
@@ -49,7 +52,6 @@ body {
   border: 3px solid #FFFFFF;
 }
 .user-name {
-  margin-top: 7px;
   margin-bottom: 5px;
   font-weight: 400;
   font-size: 15px;
@@ -61,21 +63,18 @@ body {
   font-size: 11px;
   line-height: 13px;
   margin-top: 5px;
-  margin-bottom: 15px;
 }
 .card {
   background: #F0F0F0;
   box-shadow: 0px 0px 30px rgba(155, 155, 155, 0.25);
   border-radius: 10px;
-  margin-top: 22px;
-  margin-bottom: 22px;
   padding: 20px;
 }
 .buttons {
   display: flex;
   justify-content: space-between;
+  margin: auto;
   max-width: 245px;
-  margin: 0 auto;
   gap: 15px;
 }
 .button {
@@ -93,7 +92,6 @@ body {
   font-size: 14px;
   line-height: 17px;
   gap: 10px;
-  margin-bottom: 6px;
 } 
 .button.telegram {
   background-color: #0088cc;
@@ -103,4 +101,10 @@ body {
 }
 .button.hh {
   background-color: #d6001c;
+}
+div.buttons {
+  margin-bottom: 6px;
+}
+.button.GitHub {
+  margin-bottom: 6px;
 }

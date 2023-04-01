@@ -25,7 +25,7 @@ body {
   height: 219px;
   background: url('../img/header-bg.png') no-repeat center / cover;
   border-radius: 0px 0px 70px 70px;
-  padding: 15px 176px 115px 32px;
+  padding: 15px 176px 219px 32px;
 }
 .hello {
   font-weight: 400;
@@ -66,7 +66,6 @@ body {
   font-weight: 400;
   font-size: 11px;
   line-height: 13px;
-  margin-top: 5px;
 }
 .card {
   background: #F0F0F0;

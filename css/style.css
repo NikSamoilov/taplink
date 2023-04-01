@@ -25,7 +25,7 @@ body {
   height: 219px;
   background: url('../img/header-bg.png') no-repeat center / cover;
   border-radius: 0px 0px 70px 70px;
-  padding: 15px 176px 219px 32px;
+  padding: 15px 15px;
 }
 .hello {
   font-weight: 400;
